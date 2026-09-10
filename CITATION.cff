@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this research or codebase, please cite it as below."
+authors:
+  - family-names: "Renugadevi"
+    given-names: "R."
+    affiliation: "KIT - Kalaignarkarunanidhi Institute of Technology"
+  - family-names: "M"
+    given-names: "Divyasri"
+    affiliation: "KIT - Kalaignarkarunanidhi Institute of Technology"
+  - family-names: "K"
+    given-names: "Rithikaa"
+    affiliation: "KIT - Kalaignarkarunanidhi Institute of Technology"
+  - family-names: "R"
+    given-names: "Siby"
+    affiliation: "KIT - Kalaignarkarunanidhi Institute of Technology"
+title: "Multimodal Edge-Optimized Deep Learning with Explainable AI for Plant Disease Detection"
+version: 1.0.0
+date-released: 2026-09-10
+url: "https://github.com/siby369/Edge-Multimodal-Plant-XAI"
+preferred-citation:
+  type: conference-paper
+  authors:
+    - family-names: "Renugadevi"
+      given-names: "R."
+    - family-names: "M"
+      given-names: "Divyasri"
+    - family-names: "K"
+      given-names: "Rithikaa"
+    - family-names: "R"
+      given-names: "Siby"
+  title: "Multimodal Edge-Optimized Deep Learning with Explainable AI for Plant Disease Detection"
+  conference:
+    name: "International Conference on Advanced Computing and Robotic Systems (ICACRS 2026)"
+  year: 2026
