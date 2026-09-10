@@ -70,7 +70,9 @@ We develop an edge-native, multimodal deep learning pipeline that couples high-r
 
 The framework consists of four sequential engineering stages: data conditioning and generative balancing, multimodal representation learning, dual-tier interpretability audit, and target hardware quantization:
 
-![System Architecture](assets/fig1.png)
+<p align="center">
+  <img src="assets/fig1.png" alt="System Architecture" width="350">
+</p>
 
 ```text
 [RGB Foliar Image (224x224x3)] ---> [DWConv Stem (14x14x256)] ---> [Swin Transformer Stage] --                                                                                                 ==> [Cross-Attention Fusion] ---> [Classifier Head] ---> [6 Classes]
