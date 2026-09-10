@@ -9,6 +9,7 @@
 \usepackage{booktabs}
 \usepackage{tabularx}
 \usepackage{url}
+\usepackage[hidelinks]{hyperref}
 
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
@@ -372,7 +373,7 @@ As evidenced in Fig.~\ref{fig:xai_comparison}, the attribution maps concentrate 
 This paper presented an edge-native, multimodal hybrid Vision Transformer and CNN framework for real-time plant disease detection under severe domain shifts. By integrating a Conditional GAN, we resolved class imbalance with high generative quality (FID = 18.42). The proposed hybrid architecture unified Depthwise Separable Convolutions with Swin Transformer blocks, requiring only 0.91~M parameters. Cross-attention multimodal fusion with microclimate telemetry achieved 98.6\% diagnostic accuracy on Okra DiseaseNet. Hardware benchmarking reconciled inference latency across edge GPU (14.2~ms on Jetson Orin Nano) and microcontroller (46.8~ms on ESP32-S3) deployments, while Grad-CAM++ and Integrated Gradients verified biological interpretability.
 
 \section*{Code and Reproducibility}
-To facilitate verification and reproducibility, the complete Google Colab implementation, trained model checkpoints, and benchmarking scripts are publicly available at: \url{https://github.com/siby369/Edge-Multimodal-Plant-XAI}.
+To facilitate verification and reproducibility, the complete Google Colab implementation, trained model checkpoints, and benchmarking scripts are publicly available at: \href{https://github.com/siby369/Edge-Multimodal-Plant-XAI}{\nolinkurl{https://github.com/siby369/Edge-Multimodal-Plant-XAI}}.
 
 \section*{Acknowledgments}
 The authors acknowledge the Department of Computer Science and Engineering at KIT - Kalaignarkarunanidhi Institute of Technology for providing computational infrastructure and technical support.
